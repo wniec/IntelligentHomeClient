@@ -6,6 +6,7 @@ module generated
 {
   
   exception NoInput {};
+  exception InvalidArgument{string message;};
   dictionary <string, int> contents;
 
   interface Camera
